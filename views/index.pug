@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  body
+
+    //include componente-menu.pug 
+
+    include componente-cabecera.pug 
+
+    #contenido-home.row.align-items-center.justify-content-center(style="/*background: #057fb3;*/color:  white;padding: 30px;")
+
+      include componente-opciones.pug 
+
+      include componente-proyectos.pug
+
+      include componente-proyectos-trabajados.pug
+
+      include componente-conocimientos.pug
+
+      include componente-perfil-desarrollador.pug
+
+      include componente-historias.pug

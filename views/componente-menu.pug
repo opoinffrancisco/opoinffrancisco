@@ -1,0 +1,19 @@
+#componente-menu.navbar.p-0.navbar-expand-lg(style='border-width:0px;background: #13376d1a !important;')
+        
+    a(href="/",style="padding:  0px;")
+        img(src="/img/logo-if.png", style="height: 50px;")
+    span.ml-3.navbar-brand #{nombre_autor}
+    if  title_content
+        span.ml-5.navbar-brand #{title_content}
+    
+    // <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    //#navbarNavDropdown.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+        li.pl-5.nav-item.active
+            span opcion 1
+        li.pl-5.nav-item
+            span opcion 2
+        li.pl-5.nav-item
+            span opcion 3

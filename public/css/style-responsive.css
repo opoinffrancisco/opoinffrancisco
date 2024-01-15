@@ -1,0 +1,107 @@
+/***************************************************/
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {}
+
+/* Medium devices (tablets, 780px and up) */
+@media screen and (max-width: 780px) {
+
+    #cabecera-home {
+        height: auto;
+
+    }
+
+    #cabecera-home #cabecera-home-contenido {
+        height: auto;
+    }
+
+    #cabecera-home .carousel-item {
+        height: 300px;
+    }
+
+    .proyectos-contenido,
+    #proyectos-contenid h5 {
+        font-size: smaller;
+    }
+
+    .proyecto-item {
+
+        height: 95px;
+        width: 130px;
+
+    }
+
+    .btn-principales {
+        width: 100px !important;
+        height: 100px !important;
+        font-size: 10px !important;
+        padding: 17px !important;
+    }
+
+    .btn-principales i,
+    .btn-principales svg {
+        font-size: 30px !important;
+    }
+
+    .btn-opciones-flotantes {
+        color: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #e3e8f10f;
+        padding: 10px;
+        font-size: 0px !important;
+    }
+
+    .btn-opciones-flotantes i,
+    .btn-opciones-flotantes svg {
+        font-size: 25px;
+    }
+}
+
+/* Large devices (desktops, 781px and up) */
+@media screen and (min-width: 781px) and (max-width: 992px) {
+
+    .btn-principales {
+        width: 100px !important;
+        height: 100px !important;
+        font-size: 10px !important;
+        padding: 17px !important;
+    }
+
+    .btn-principales i,
+    .btn-principales svg {
+        font-size: 30px !important;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+    .btn-principales {
+        width: 150px !important;
+        height: 150px !important;
+        font-size: 12px !important
+    }
+
+    .btn-principales i,
+    .btn-principales svg {
+        font-size: 50px !important;
+    }
+
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+
+    .btn-principales {
+        width: 200px !important;
+        height: 200px !important;
+        font-size: 15px !important
+    }
+
+    .btn-principales i,
+    .btn-principales svg {
+        font-size: 75px !important;
+    }
+
+}
