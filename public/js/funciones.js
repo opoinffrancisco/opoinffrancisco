@@ -34,13 +34,15 @@ $(document).ready(function () {
 
     if (windowHeight >= contenido2) {
 
-      //$('#OpcionesFlotantes').fadeIn("slow");
       jQuery("#OpcionesFlotantes").addClass('fade-in').removeClass('fade-out');
+      jQuery("#slideCAIDAONLINE").addClass('fade-in').removeClass('fade-out');
+      jQuery("#slideUNEEVERSO").addClass('fade-in').removeClass('fade-out');
 
     } else {
 
-      //$('#OpcionesFlotantes').fadeOut("slow");
       jQuery("#OpcionesFlotantes").removeClass('fade-in').addClass('fade-out');
+      jQuery("#slideCAIDAONLINE").removeClass('fade-in').addClass('fade-out');
+      jQuery("#slideUNEEVERSO").removeClass('fade-in').addClass('fade-out');
 
     }
 
