@@ -29,22 +29,25 @@ $(document).ready(function () {
 
     var windowHeight = $(window).scrollTop();
     var contenido2 = $("#mostrar-opcionesflotantes").offset();
+    var contenido3 = $("#mostrar-proyectosDestacados").offset();
 
     contenido2 = contenido2.top;
+    contenido3 = contenido3.top;
+
+    if (windowHeight >= contenido3) {
+      jQuery("#slideCAIDAONLINE").addClass('slideCAIDAONLINE');
+      jQuery("#slideUNEEVERSO").addClass('slideUNEEVERSO');
+    } else {
+      jQuery("#slideCAIDAONLINE").removeClass('slideCAIDAONLINE');
+      jQuery("#slideUNEEVERSO").removeClass('slideUNEEVERSO');
+    }
 
     if (windowHeight >= contenido2) {
-
       jQuery("#OpcionesFlotantes").addClass('fade-in').removeClass('fade-out');
-      jQuery("#slideCAIDAONLINE").addClass('fade-in').removeClass('fade-out');
-      jQuery("#slideUNEEVERSO").addClass('fade-in').removeClass('fade-out');
-
     } else {
-
       jQuery("#OpcionesFlotantes").removeClass('fade-in').addClass('fade-out');
-      jQuery("#slideCAIDAONLINE").removeClass('fade-in').addClass('fade-out');
-      jQuery("#slideUNEEVERSO").removeClass('fade-in').addClass('fade-out');
-
     }
+   
 
 
   });
