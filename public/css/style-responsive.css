@@ -23,11 +23,26 @@
         font-size: smaller;
     }
 
-    .proyecto-item {
+    #proyectos_destacados .proyecto-item {
+
+        height: 170px;
+        /*width: 130px;*/
+
+    }
+
+    #empleos_destacados .proyecto-item {
 
         height: 95px;
-        width: 130px;
+        /*width: 130px;*/
 
+    }
+    #empleos_destacados img.card-img-top {
+        width: 68px !important;
+        height: 68px !important;
+    }
+    #empleos_destacados .contenedor_proyecto{
+        padding-top:0px !important;
+        text-align: center !important;
     }
 
     .btn-principales {
