@@ -18,6 +18,11 @@
         height: 300px;
     }
 
+
+    /*.contenedor_proyectos{
+        flex-direction: column !important;
+    }*/
+
     .proyectos-contenido,
     #proyectos-contenid h5 {
         font-size: smaller;
@@ -29,11 +34,15 @@
         /*width: 130px;*/
 
     }
+    .proyectos_destacados_img {
+        height: 100% !important;
+        width: 100% !important;
+    }
 
     #empleos_destacados .proyecto-item {
 
-        height: 95px;
-        /*width: 130px;*/
+        height: 250px !important;
+        width: 130px !important;
 
     }
     #empleos_destacados img.card-img-top {
@@ -41,8 +50,11 @@
         height: 68px !important;
     }
     #empleos_destacados .contenedor_proyecto{
-        padding-top:0px !important;
+        padding-top: 0px !important;
         text-align: center !important;
+        display: flex !important;
+        align-content: center !important;
+        justify-content: space-evenly !important;
     }
 
     .btn-principales {

@@ -142,6 +142,11 @@ p.h5 {
   font-size: x-large;
 }
 
+.proyectos_destacados_img{
+  height: 100%;
+  width: 100%;
+}
+
 .proyecto-item {
 
   height: 368px;
